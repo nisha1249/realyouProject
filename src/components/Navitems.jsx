@@ -2,22 +2,22 @@ export const navitems = [
     {
         id: 0,
         title:"Smartphones",
-        path:"./Smartphones",
+        path:"productslist",
     },
     {
         id: 1,
         title:"Smart watches",
-        path:"./Smart watches",
+        path:"smartwatches",
     },
     {
         id: 2,
         title:"Audio",
-        path:"./Audio",
+        path:"audio",
     },
     {
         id: 3,
         title:"Smart Accessories",
-        path:"./Smart Accessories",
+        path:"accessories",
     },
 ];
 
@@ -51,7 +51,7 @@ export const bannerImage = [
       price:"₹ 12,900",
       alt: "image1",
       url: 
-        "../assets/logo.png",
+        "./assets/img2.webp",
         
     },
     {
@@ -60,68 +60,92 @@ export const bannerImage = [
       price:"₹ 1000",
       alt: "image2",
       url:
-        "../assets/logo.png"
+        "./assets/img1.webp"
     },
     {
       product: "Realyou Teachlife Buds",
       feature: " Epic Performance, New Vision",
       price:"₹ 2,900",
       alt: "image3",
-      url: "../assets/logo.png"
+      url: "./assets/img2.webp"
     },
     {
         product: "Realyou 10 Pro",
         feature: "120Hz Curved Vision Display | 108MP ProLight Camera",
         price:"₹ 12,900",
         alt: "image4",
-        url: "../assets/logo.png"
+        url: "../assets/img1.webp"
     }
 
+  ];
+ export const posters=[
+    {
+        posterName:"Hottest Audios",
+        posterImage:"./assets/audiocard.webp",
+        category:"earbuds"
+    },
+    {
+        posterName:"Best Wearables",
+        posterImage:"./assets/watchCard.webp",
+        category:"watch"
+    },
+    {
+        posterName:"Smart Accessories",
+        posterImage:"./assets/img11.webp",
+        category:"accessories"
+    }
   ];
 
   export const audioCardProduct = [
     {
         id: 1,
-        image:"",
+        image:"./assets/earbuds.webp",
         name:"realyou Buds Air 3",
         price:"₹ 3,999",
         path:"./10 Series",
+        category:"earbuds"
     },
     {
         id: 2,
-        image:"",
+        image:"./assets/earbuds.webp",
         name:"realyou Buds Air 4",
         price:"₹ 2,999",
         path:"./9 Series",
+        category:"earbuds"
     },
     {
         id: 3,
-        image:"",
+        image:"./assets/earbuds.webp",
         name:"realyou Buds Air 5",
         price:"₹ 1,999",
         path:"./C Series",
+        category:"earbuds"
     },
     {
         id: 4,
-        image:"",
+        image:"./assets/earbuds.webp",
         name:"realyou Buds Wireless 3",
         price:"₹ 1,499",
         path:"./GT Series",
+        category:"earbuds"
     },
     {
         id: 5,
-        image:"",
+        image:"./assets/earbuds.webp",
         name:"realyou Buds Air 3",
         price:"₹ 2,999",
         path:"./GT Series",
+        category:"watch"
     },
     {
         id: 6,
-        image:"",
+        image:"./assets/earbuds.webp",
         name:"realyou Buds TechLife 5",
         price:"₹ 3,999",
         path:"./GT Series",
+        category:"accessories"
     },
+
 ];
 export const smartWatchCard = [
     {

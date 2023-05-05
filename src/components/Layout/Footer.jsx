@@ -1,6 +1,5 @@
 import React from 'react';
 import './Footer.css';
-import enquiry from '../assets/img13.png';
 
 const Footer = () => {
 
@@ -24,7 +23,7 @@ const Footer = () => {
             <li>order@realyou.com</li>
         </ul>
         <div className='enquiry'>
-            <img src={enquiry} alt='enquiry' />
+            <img src="./assets/img13.png" alt='enquiry' />
             <h5>CHAT SUPPORT</h5>
         </div>
     </div>

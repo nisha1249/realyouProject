@@ -1,29 +1,31 @@
 import React, { useState, useEffect } from 'react';
 import { Row, Col } from 'react-bootstrap';
 import './ProductDetailPage.css';
-import Navbar from '../Navbar';
-import {productDetails} from '../Navitems';
+import {productDetails} from '../../components/Navitems';
+import { FaPlus, FaMinus } from "react-icons/fa";
 import {CgSmartphoneChip, CgSmartphone, CgSmartphoneRam} from "react-icons/cg";
 import {BiCamera} from "react-icons/bi";
 import { CiBatteryCharging } from "react-icons/ci";
-import Footer from '../Footer';
-import {BuyNow, LearnButton} from '../Buttons';
+import Footer from '../../components/Layout/Footer';
+import {BuyNow, LearnButton} from '../../components/Cart/Buttons';
+import Navbar from '../../components/Layout/Navbar';
 
 const ProductDetailPage = () => {
 
   const [products, setProducts] = useState([productDetails]);
   const [viewImage, setViewImage] = useState(products[0][0]);
   console.log(products[0][0].url);
-  const[add,setAdd] = useState(1);
-  const[sub,setSub] = useState(1);
-  const quatity =() =>{
-    setSub(add+1);
-    setSub(sub-1);
+  const[quantity,setQuatity] = useState(1);
+  const addQuatity =() =>{
+    setQuatity(quantity+1);
+  };
+  const subQuatity =() =>{
+    setQuatity(quantity-1);
   };
   
-  return (
+  return ( 
     <>
-      <Navbar />
+      <Navbar/>    
       <div>
       {products.map(item =>(
             item.map(data =>
@@ -92,7 +94,10 @@ const ProductDetailPage = () => {
           <section className='pincode'>
           <div className='quatity'>
           <h4>Quatity</h4>
-          <button onClick={quatity}>{sub}
+          <button style={{fontSize:"13px",display:"flex",justifyContent:"space-around",paddingTop:"16px"}}>
+          <FaMinus onClick={subQuatity} />
+           <p style={{fontSize:"18px",marginTop:"-7px"}}>{quantity}</p> 
+          <FaPlus onClick={addQuatity}/>
           {/* <p onClick={quatity}>-</p> {num} <p onClick={quatity}>+</p> */}
           </button>
           </div>  

@@ -1,17 +1,20 @@
 import React, { useState , useEffect} from 'react';
 import './navbar.css';
-import logo from '../assets/logo.png';
+import axios from 'axios';
+import { Link } from 'react-router-dom';
 import { FaSearch } from "react-icons/fa";
-import {navitems} from "./Navitems";
-// import DropdownMenu from "./DropdownMenu";
+import {navitems} from "../Navitems"; 
 
 const Navbar = () => {
-  const [navitem, setNavitem] = useState([]);
+  const [navitem, setNavitem] = useState([navitems]);
+
   const getApiData = async() =>{
     try{
-      setNavitem([navitems]);
-    }catch{
-        console.log("error");
+      // const res = await axios.get("https://shashankpathe1.pythonanywhere.com/api/categories/");
+      // console.log(res.category);
+      setNavitem(navitem);
+    }catch(error){
+        console.log(error);
     }
 };
  useEffect(()=>{
@@ -21,11 +24,11 @@ const Navbar = () => {
   return (
    <>
     <div className='header'>
-      <img src={logo} />
+     <Link to="/"> <img src='./assets/logo.png' /> </Link> 
       <div className='header-options'>
         <ul>
         {navitem.map(item => (
-          item.map(data => <li key={data.id}>{data.title}</li>)
+          item.map(data => <li key={data.id}><Link to={data.path} className='tags'>{data.title}</Link></li>)
         ))}
         </ul>
       </div>

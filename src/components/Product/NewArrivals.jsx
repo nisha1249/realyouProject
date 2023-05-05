@@ -1,8 +1,8 @@
 import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
-import cart1 from "../assets/img4.jpg";
-import cart2 from "../assets/img3.png";
-import cart3 from "../assets/img2.webp";
+import cart1 from "../../assets/images/img4.jpg";
+import cart2 from "../../assets/images/img3.png";
+import cart3 from "../../assets/images/img2.webp";
 
 const NewArrivals = () => {
   const styles = {

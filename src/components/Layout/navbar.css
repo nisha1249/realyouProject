@@ -18,12 +18,14 @@ html,body{
     margin: 20px;
 }
 .header-options li {
-    color: black;
     float: left;
     padding-left: 48px;
-    font-size: 18px;
-    font-weight: 600;
     list-style: none;
+}
+.header-options li .tags{
+   color: black;
+   font-size: 18px;
+   font-weight: 600;
 }
 .nav-option{
     margin-top:20px;
@@ -43,7 +45,7 @@ html,body{
     font-size: larger;
     color: black;
 }
-.header-options li:hover{
+.header-options li .tags:hover{
     color: #ffc915;
     cursor: pointer;
 }
