@@ -1,0 +1,62 @@
+html,body{
+    margin:0;
+    padding:0;
+ }
+.header{
+    background-color: #fbfbfb!important;
+    height: 78px;
+    padding: 9px;
+}
+.me-auto.navbar-nav a {
+    color: black!important;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+
+.header img{
+    height: 45px;
+    width: 176px;
+    cursor: pointer;
+}
+.header-options {
+    margin: 20px;
+    color: black;
+    text-decoration: none;
+}
+.header-options li {
+    float: left;
+    padding-left: 48px;
+    list-style: none;
+}
+.header-options li .tags{
+   color: black;
+   font-size: 18px;
+   font-weight: 600;
+}
+.nav-option{
+    margin-top:20px;
+    margin-left: 90px;
+}
+.nav-option li{
+    color: black;
+    float: left;
+    padding-left: 13px;
+    font-size: 18px;
+    font-weight: 600;
+    list-style: none;
+}
+.search-icon {
+    margin: 24px;
+    cursor: pointer;
+    font-size: larger;
+    color: black;
+}
+.header-options li .tags:hover{
+    color: #ffc915;
+    cursor: pointer;
+}
+.nav-option li:hover{
+    color: #ffc915;
+    cursor: pointer;
+}

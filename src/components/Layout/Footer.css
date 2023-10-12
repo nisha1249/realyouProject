@@ -1,0 +1,35 @@
+.footer{
+    margin: 70px;
+}
+.footer ul{
+    float: left;
+    list-style-type: none;
+    text-align: left;
+    font-size: 14px;
+    font-weight: 400;
+    color: black;
+    padding-right: 25px;
+}
+.footer h6{
+    font-weight: 700;
+    font-size: 17px;
+    padding-bottom: 28px;
+}
+.enquiry {
+    height: 55px;
+    width: 13.5rem;
+    float: right;
+    border: 2px solid black;
+    border-radius: 25px;
+    padding: 8px;
+}
+.enquiry h5{
+    margin-top: -33px;
+    margin-left: 3rem;
+    font-size: 17px;
+    font-weight: 700;
+}
+.enquiry img{
+    height: 38px;
+    width: 52px;
+}

@@ -1,0 +1,156 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.preview-product{
+    margin: 20px 0px 0px 55px;
+}
+.preview-product img{
+    height: 440px;
+    width: 433px;
+}
+.all-preview-product img{
+    height: 50px;
+    width: 50px;
+    margin-left: 32px;
+    cursor: pointer;
+}
+.products-detail{
+    font-weight: bold;
+    padding-top: 25px;
+}
+.products-detail h5{
+    color: red;
+    font-weight: 700;
+}
+.products-detail p{
+    color: red;
+    background-color: #ffedec;
+    height: 1.5rem;
+    width: 6rem;
+    text-align: center;
+    border-radius: 4px;
+    font-size: 14px;
+    margin-top: 20px;
+}
+.features{
+    background-color: #f9f9f9;
+    height: 8rem;
+    width: 33rem;
+    border-radius: 8px;
+    padding-left: 20px;
+    padding-top: 10px;
+    display: flex;
+    margin-top: 40px;
+    text-align: center;
+}
+.f-icons {
+    width: 100px;
+    font-size: 25px;
+    color: grey;
+}
+.f-icons h6{
+    color: black;
+    font-size: 15px;
+    font-weight: bold;
+}
+.f-icons p{
+    color: grey;
+    background:none;
+    font-weight: 200;
+}
+.phone-cc h4{
+    padding-top: 16px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.phone-cc .phone-color{
+    display: flex;
+}
+.phone-color button{ 
+    margin-right: 20px;
+    margin-top: 25px;
+    height: 55px;
+    width: 14rem;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    text-align: center;
+    font-size: 16px;
+}
+.phone-color button:hover{ 
+    background-color: white;
+    border-color: black;
+    font-weight: bold;
+}
+.phone-config button{ 
+    margin-right: 20px;
+    margin-top: 25px;
+    height: 55px;
+    width: 14rem;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    text-align: center;
+    font-size: 16px;
+}
+.phone-config button:hover{ 
+    background-color: white;
+    border-color: black;
+    font-weight: bold;
+}
+.pincode input{
+    width: 22rem;
+    height: 2.5rem;
+    border: 1px solid grey;
+    border-radius: 5px;
+    text-align: left;
+    padding-left: 12px;
+    margin-right: 20px;
+}
+.check-pin{
+    height: 2.5rem;
+    width: 6rem;
+    background-color: black;
+    color: white;
+    border-radius: 22px;
+    font-size: 18px;
+    padding: 0px;
+}
+.specific-data p{
+    font-size: 15px;
+    color: grey;
+    margin-bottom: 6px;
+}
+.specific-data h5{
+    font-size: 15px;
+    margin-left: -10rem;
+    margin-bottom: 12px;
+}
+.quatity h4{
+    padding-top: 16px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.quatity button{
+    height: 47px;
+    width: 141px;
+    background-color: #f9f9f9;
+    border-radius: 24px;
+}
+.footer-data{
+    display: flex;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    position: fixed;
+    bottom: 0px;
+    z-index: 1;
+    background-color: white;
+}
+.footer-data h4{
+    color: red;
+    font-weight: 700;
+    padding-left: 37rem;
+    padding-right: 17px;
+}
+.footer-data h5{
+   padding-left: 5rem;
+}

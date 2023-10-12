@@ -1,0 +1,51 @@
+{
+
+    
+
+        "id": 9,   
+        "name": "realme Z pro",
+        "sku": "65866886",
+        "description": "snapdragon 550 processor with good battery life",
+        "image": "http://shashankpathe1.pythonanywhere.com/home/shashankpathe1/backend/product_images/-original-imagbafbkbkhhf2a.webp",
+        "price": "2000.00",
+        "showcase": true,
+        "weight": "200.00",
+        "length": "70.00",
+        "width": "60.00",
+        "height": "69.99",
+        "section": 1,
+
+
+    
+
+    "specification": [
+      {
+        "name": "processor",
+        "value": "snapdragon 550"
+      },
+      {
+        "name": "battery",
+        "value": "5000 mah"
+      },
+      {
+        "name": "display",
+        "value": "5.8 inch"
+      }
+    ] ,
+
+      
+    
+    "thumbnail":["./assets/image 1.png","./assets/image 1.png","./assets/image 1.png","./assets/image 1.png"],
+    "features":{
+        "processor": "Powerfull Unisoc T6...",
+        "camera": "50 MP AI Camera...", 
+        "battery": "5000mAh Massive...", 
+        "display": "8.3mm Ultra Slim...",
+        "storage":"3GB+32GB | 4GB+64GB"
+        },
+    "simType":"DUAL Sim",
+    "color":["Glowing Black", "Glowing Green"],
+    "configuration":["4GB+128GB", "4GB+64GB", "6GB+128GB"]
+
+    
+  }
